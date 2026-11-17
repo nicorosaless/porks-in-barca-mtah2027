@@ -1,0 +1,28 @@
+{
+  "descripcion": "it9a (E1): ensamble it8 (0.5·it4c + 0.5·it7, it7 con bandera Metrica) con costes ajustados por CV en los 16 partidos de estilo reto dev (it9_E1b_ZXdev.json).",
+  "componentes": [
+    {
+      "pesos_red": "it4c.pt",
+      "peso": 0.5
+    },
+    {
+      "pesos_red": "it7.pt",
+      "convencion": "metrica",
+      "peso": 0.5
+    }
+  ],
+  "costes": {
+    "cambio": 4.0,
+    "a_muerto": 12.0,
+    "desde_muerto": 8.0,
+    "sesgo_d": 0.25,
+    "temperatura": 1.0
+  },
+  "d_antes_saque": [
+    [
+      110808,
+      113742
+    ]
+  ],
+  "_nota_d_antes_saque": "FAQ.md: la 2a parte se evalua desde 110808 y se saca en 113742; esos frames son D."
+}

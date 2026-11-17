@@ -1,0 +1,8 @@
+{
+ "descripcion": "it8: mezcla 0.5·P(it4c) + 0.5·P(it7) antes de Viterbi; costes ajustados conjuntamente en IDSSE v2/pes/v3/v3pes (it8_D4.json).",
+ "componentes": [
+  {"pesos_red": "it4c.pt", "peso": 0.5},
+  {"pesos_red": "it7.pt", "convencion": "metrica", "peso": 0.5}
+ ],
+ "costes": {"cambio": 1.0, "a_muerto": 2.0, "desde_muerto": 2.0, "sesgo_d": 0.0, "temperatura": 1.5}
+}

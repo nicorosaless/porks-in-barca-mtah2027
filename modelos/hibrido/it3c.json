@@ -1,0 +1,11 @@
+{
+ "descripcion": "Iteración 3c: red de emisiones entrenada en IDSSE degradado con mezcla de escenarios de balón muerto (MareNostrum, H100) + Viterbi. Costes ajustados en IDSSE (escenario pesimista, 7 partidos).",
+ "pesos_red": "it3c.pt",
+ "costes": {
+  "cambio": 1.0,
+  "a_muerto": 32.0,
+  "desde_muerto": 4.0,
+  "sesgo_d": 0.0,
+  "temperatura": 2.0
+ }
+}

@@ -1,0 +1,10 @@
+# Entorno del equipo, versiones fijadas (Python 3.12). Incluye las del scorer (requirements.txt).
+#   uv venv -p 3.12 .venv && uv pip install -p .venv/bin/python -r requirements-equipo.txt \
+#     --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-best-match
+numpy==2.5.4
+pandas==3.1.0
+pytest==9.2.0
+# Red de emisiones del híbrido (inferencia en CPU; el entrenamiento en MN5 usó 2.11.0+cu128).
+torch==2.15.0+cpu
+# Solo para los notebooks y helpers de starter/; mtah/ no lo necesita.
+kloppy==3.18.0
